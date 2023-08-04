@@ -1,5 +1,5 @@
 {
-  "domain": "ecomplus-storefront.netlify.app",
+  "domain": "drvaleriavargas.netlify.app",
   "currency_symbol": "R$",
   "primary_color": "",
   "theme": {
@@ -10,17 +10,17 @@
   "font_family": "_",
   "bg_color": "#ffffff",
   "repository": "",
-  "logo": "/img/uploads/valeria-vargas.webp",
+  "logo": "/img/uploads/g199.png",
   "name": "Dra Valeria Vargas",
   "short_name": "Dra Valeria Vargas",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
-  "favicon": "/img/uploads/favicon.png",
+  "favicon": "/img/uploads/g197.png",
   "country_code": "BR",
   "secondary_color": "",
-  "icon": "/img/icon.png",
+  "icon": "/img/uploads/g197.png",
   "store_id": 1052,
   "description": "Dra Valeria Vargas - Ortondontia e Harmonização Orofacial",
-  "large_icon": "/img/large-icon.png"
+  "large_icon": "/img/uploads/g197.png"
 }
