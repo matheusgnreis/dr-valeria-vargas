@@ -2,3 +2,16 @@
 .header__buttons {
     display: none !important;
 }
+.products-carousel__title::before {
+    background: #cfa8a1;
+    content: " ";
+    height: 2px;
+    left: 39%;
+    margin-top: .5rem;
+    position: absolute;
+    top: 80%;
+    width: 20%;
+}
+.menu__category {
+    display: none;
+}

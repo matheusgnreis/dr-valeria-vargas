@@ -24,7 +24,7 @@
     },
     {
       "type": "custom-html",
-      "markdown": "<h2 class=\"products-carousel__title\">ENTRE EM CONTATO</h2>"
+      "html": "<h2 class=\"products-carousel__title\">ENTRE EM CONTATO</h2>"
     },
     {
       "type": "custom-html",
