@@ -4,13 +4,13 @@
     "text": ""
   },
   "links_1": {
-    "list_pages": true,
-    "title": "Páginas",
+    "list_pages": false,
+    "title": "Institucional",
     "list": []
   },
   "links_2": {
-    "list_categories": true,
-    "title": "Categorias",
+    "list_categories": false,
+    "title": "",
     "list": []
   },
   "contacts": {
@@ -21,21 +21,15 @@
     "address": true
   },
   "stamps": [
-    {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection",
-      "width": 150,
-      "height": 62
-    }
   ],
   "payment_methods": {
-    "pix": true,
-    "visa": true,
-    "mastercard": true,
-    "elo": true,
-    "amex": true,
-    "hipercard": true,
-    "boleto": true
+    "pix": false,
+    "visa": false,
+    "mastercard": false,
+    "elo": false,
+    "amex": false,
+    "hipercard": false,
+    "boleto": false
   },
-  "credits": ""
+  "credits": "Todos os direitos reservados"
 }

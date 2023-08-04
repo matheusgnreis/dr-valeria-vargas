@@ -10,8 +10,12 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
+    "featured": [
+      "/?Início",
+      "/sobre-nos?Sobre Nós",
+      "/tratamentos?Tratamentos"
+    ],
+    "random": 0,
     "full_width": false
   },
   "centralized_logo": false,

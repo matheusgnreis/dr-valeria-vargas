@@ -1,7 +1,7 @@
 {
   "domain": "drvaleriavargas.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "",
+  "primary_color": "#cfa8a1",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
@@ -10,7 +10,7 @@
   "font_family": "_",
   "bg_color": "#ffffff",
   "repository": "",
-  "logo": "/img/uploads/g199.png",
+  "logo": "/img/uploads/logo-valeria.png",
   "name": "Dra Valeria Vargas",
   "short_name": "Dra Valeria Vargas",
   "lang": "pt_br",

@@ -5,43 +5,30 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
+          "img": "/img/uploads/slide1.jpg",
           "link": "/headset",
           "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/headphone.webp"
+          "mobile_img": "/img/uploads/slide1.jpg"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner2.webp",
+          "img": "/img/uploads/slide3.jpg",
           "alt": "Banner sample two",
-          "mobile_img": "/img/uploads/passion.webp"
+          "mobile_img": "/img/uploads/slide3.jpg"
         }
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": true
+      "type": "custom-html",
+      "markdown": "<h2 class=\"products-carousel__title\">ENTRE EM CONTATO</h2>"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "",
-      "headless": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "custom-html",
+      "html": "\n<div id=\"local\" class=\"mapouter\"><div class=\"gmap_canvas\"><iframe width=\"500\" height=\"300\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=R.%20Mal.%20Floriano%20Peixoto,%20420%20-%20Centro,%20Juiz%20de%20Fora%20-%20MG,%2036013-080+(Odontoclamp)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe><a href=\"https://putlocker-is.org\"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>"
     }
   ]
 }
