@@ -13,7 +13,10 @@
     "featured": [
       "/?Início",
       "/sobre-nos?Sobre Nós",
-      "/tratamentos?Tratamentos"
+      "/#tratamentos?Tratamentos",
+      "/#clinica?Clínica",
+      "/#cursos?Cursos",
+      "/#resultados?Resultados"
     ],
     "random": 0,
     "full_width": false

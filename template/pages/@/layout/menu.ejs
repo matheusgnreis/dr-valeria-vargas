@@ -89,6 +89,7 @@ if (mainCategories) {
           <% } %>
 
           <div class="menu__list">
+            <a class="menu__item" href="/">Início</a>
             <% categoryParents[slug].forEach((subcategory, index) => { %>
               <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
               <a
@@ -127,6 +128,10 @@ if (mainCategories) {
                   <a class="menu__item" href="/pages/<%= slug %>"><%= title %></a>
                 <% }) %>
             <% } %>
+            <a class="menu__item" href="/#tratamentos">Tratamentos</a>
+            <a class="menu__item" href="/#clinica">Clínica</a>
+            <a class="menu__item" href="/#cursos">Cursos</a>
+            <a class="menu__item" href="/#resultados">Resultados</a>
           </div>
 
           <% if (category && category.slug) { %>

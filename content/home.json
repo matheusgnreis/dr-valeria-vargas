@@ -8,27 +8,193 @@
       "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/slide1.jpg",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "mobile_img": "/img/uploads/slide1.jpg"
-        },
-        {
           "start": "",
           "end": "",
-          "img": "/img/uploads/slide3.jpg",
-          "alt": "Banner sample two",
-          "mobile_img": "/img/uploads/slide3.jpg"
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas",
+          "img": "/img/uploads/novo-dest.webp",
+          "alt": "Harmonização Orofacial - Seja O que quiser",
+          "mobile_img": "/img/uploads/ser-oque-quiser.webp"
         }
       ]
     },
     {
       "type": "custom-html",
-      "html": "<h2 class=\"products-carousel__title\">ENTRE EM CONTATO</h2>"
+      "html": "<h2 id=\"tratamentos\" class=\"products-carousel__title\">Tratamentos</h2>"
+    },
+    {
+      "type": "banners-grid-text",
+      "tag": "tratamentos",
+      "banners": [
+        {
+          "img": "/img/uploads/botox.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas-Botox",
+          "alt": "Botox",
+          "text": "Toxina Botulínica (Botox)"
+        },
+        {
+          "img": "/img/uploads/bichectomia.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas-bichectomia",
+          "alt": "Bichectomia",
+          "text": "Bichectomia"
+        },
+        {
+          "img": "/img/uploads/laser-co2.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas%20Laser%20e%20Led",
+          "alt": "Laser e Led",
+          "text": "Terapias com laser e LED (Endoskin, CO2)"
+        },
+        {
+          "img": "/img/uploads/lifting.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargasLifting%20temporal",
+          "alt": "Lifting temporal",
+          "text": "Lifting temporal"
+        },
+        {
+          "img": "/img/uploads/pdo.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas-Fios%20de%20PDO%20e%20PCL",
+          "alt": "Fios de PDO e PCL",
+          "text": "Fios de PDO e PCL"
+        },
+        {
+          "img": "/img/uploads/mono.jpg",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20Ultrassom%20Microfocado",
+          "alt": "Ultrassom Microfocado",
+          "text": "Ultrassom Microfocado"
+        },
+        {
+          "img": "/img/uploads/colageno.jpg",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20-Bioestimuladores%20de%20colágenogas",
+          "alt": "Bioestimuladores de colágeno",
+          "text": "Bioestimuladores de colágeno"
+        },
+        {
+          "img": "/img/uploads/preenchimento-acido.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas%20-%20preenchimento%20com%20ácido%20hialurônico",
+          "alt": "Preenchimento com ácido hialurônico",
+          "text": "Preenchimento com ácido hialurônico"
+        },
+        {
+          "img": "/img/uploads/papada.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas%20-%20de%20papada%20cirúrgica%20e%20enzimática",
+          "alt": "Lipo de papada cirúrgica e enzimática",
+          "text": "Lipo de papada cirúrgica e enzimática"
+        },
+        {
+          "img": "/img/uploads/tecnica-colageno.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas-%20Técnicas%20de%20indução%20de%20colágeno",
+          "alt": "Técnicas de indução de colágeno",
+          "text": "Técnicas de indução de colágeno"
+        },
+        {
+          "img": "/img/uploads/alinhador.png",
+          "link": "https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas%20Ortodontia%20-%20Alinhamento%20de%20Dente",
+          "alt": "Ortodontia - Alinhamento de Dente",
+          "text": "Ortodontia - Alinhamento de Dente"
+        }
+      ]
     },
     {
       "type": "custom-html",
-      "html": "\n<div id=\"local\" class=\"mapouter\"><div class=\"gmap_canvas\"><iframe width=\"500\" height=\"300\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=R.%20Mal.%20Floriano%20Peixoto,%20420%20-%20Centro,%20Juiz%20de%20Fora%20-%20MG,%2036013-080+(Odontoclamp)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe><a href=\"https://putlocker-is.org\"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>"
+      "html": "<h2 id=\"clinica\" class=\"products-carousel__title\">Clínica</h2>"
+    },
+    {
+      "type": "banner-text",
+      "tag": "local-clinica",
+      "img": "/img/uploads/cons-horiz.webp",
+      "alt": "Clínica Dra Valéria Vargas",
+      "text": "Localizado estrategicamente no centro de Juiz de Fora, a clínica proporciona diversos tratamentos de harmonização orofacial e ortodonticos há mais de 10 anos. Possui um ambiente intimista e aconchegante para que se sinta confortável durante todo o tratamento."
+    },
+    {
+      "type": "custom-html",
+      "html": "<h2 id=\"cursos\" class=\"products-carousel__title\">Cursos</h2>"
+    },
+    {
+      "type": "custom-html",
+      "tag": "curso-video",
+      "html": "<video id=\"curso\" class=\"lozad\" data-src=\"https://i.imgur.com/XGX5iRe.mp4\" autoplay=\"true\" loop=\"true\" playsinline style=\"pointer-events: none;\"></video>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<h2 id=\"resultados\" class=\"products-carousel__title\">Resultados</h2>"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/antes-depois-1.jpg",
+          "link": "/",
+          "alt": "ENDOLASER - Reduzir gordura da pálpebra e ruga",
+          "text": "ENDOLASER - Reduzir gordura da pálpebra e ruga"
+        },
+        {
+          "img": "/img/uploads/antes-e-depois-2.jpg",
+          "link": "/",
+          "alt": "Harmonização orofacial - Aula",
+          "text": "Harmonização orofacial - Aula"
+        },
+        {
+          "img": "/img/uploads/antes-e-depois-3.jpg",
+          "link": "/",
+          "alt": "Laser CO2",
+          "text": "Laser CO2"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/antes-e-depois-4.jpg",
+          "link": "/",
+          "alt": "Lifting temporal",
+          "text": "Lifting temporal"
+        },
+        {
+          "img": "/img/uploads/antes-e-depois-5.jpg",
+          "link": "/",
+          "alt": "Ortodontia - Alinhamento",
+          "text": "Ortodontia - Alinhamento"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/antes-e-depois-6.jpg",
+          "link": "/",
+          "alt": "Lifting temporal",
+          "text": "Lifting temporal"
+        },
+        {
+          "img": "/img/uploads/antes-e-depois-6-7.jpg",
+          "link": "/",
+          "alt": "Ortodontia - Alinhamento",
+          "text": "Ortodontia - Alinhamento"
+        }
+      ]
+    },
+    {
+      "type": "review-carousel",
+      "autoplay": 9000,
+      "title": "Depoimentos",
+      "reviews": [
+        {
+          "nome": "Ana",
+          "procedimento": "Laser de CO2",
+          "texto": "Depois de fazer o Laser CO2, fiquei com uma pele com brilho, uma pele muito mais jovem. Amei o resultado, muito bonito! E estou me sentindo muito melhor! Super vale a pena!"
+        },
+        {
+          "nome": "Evane",
+          "procedimento": "Lifting com fios PDO",
+          "texto": "O resultado foi surpreendente e eu muuuuuito satisfeita. Faria novamente quantas vezes fosse preciso. Tamanha foi minha alegria com esse resultado. AMEI, obrigada Dra Valeriam"
+        },
+        {
+          "nome": "Matheus",
+          "procedimento": "Ortodontia",
+          "texto": "Resultado foi surpreendente e estou muito satisfeito. Estou indicando para todo mundo. Não tenho mais vergonha de tirar fotos de perto."
+        }
+      ]
     }
   ]
 }

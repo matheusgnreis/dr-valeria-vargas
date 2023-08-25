@@ -1,0 +1,22 @@
+<div class="row" id="banner-text">
+  <div class="col-12 col-md-6">
+    <div class="responsive-baner my-3 my-lg-4">
+      <div class="container">
+        <%- await include('@/sections/inc/banner', { _, opt }) %>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="container my-3 my-lg-4">
+      <h4 class="mb-4">Conheça consultório da Dra Valéria Vargas</h4>
+      <br>
+      <p>
+        <%= opt.text %>
+      </p>
+      <br>
+      <a href="https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas" class="btn btn-primary agenda-agora">Agende Agora</a>
+      <a href="/pages/sobre-nos" class="btn btn-secondary more-details">Saiba Mais</a>
+    </div>
+  </div>
+</div>
+

@@ -3,10 +3,43 @@
 const footer = _.cms('footer') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
+const { path } = _.route
 %>
 
-<footer class="footer py-3 py-lg-4 py-xl-5">
+<a href="https://wa.me/55<%= contacts.whatsapp.replace(/\D/g, '') %>?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas" style="position:fixed;width:60px;height:60px;bottom:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;right:40px;" target="_blank">
+  <i style="margin-top:16px" class="fab fa-whatsapp"></i>
+</a>
+<footer class="footer">
   <div class="container">
+    <section class="custom-html my-4 my-lg-5">
+      <div class="container">
+        <div class="html-clearfix">
+          <h3 class="products-carousel__title">ENTRE EM CONTATO</h3>
+        </div>
+      </div>
+    </section>
+    <section class="custom-html my-4 my-lg-5 mapa">
+      <div class="container">
+        <div class="html-clearfix">
+          <div class="row"><div class="col-12 col-md-6"><div id="local"><div class="gmap_canvas"><iframe width="100%" height="auto" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=R.%20Mal.%20Floriano%20Peixoto,%20420%20-%20Centro,%20Juiz%20de%20Fora%20-%20MG,%2036013-080+(Odontoclamp)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div></div><div class="col-12 col-md-6"><h3>AGENDE SUA CONSULTA AGORA</h3><form id="contact-form"><div class="form-group"><label for="name">Qual o seu nome?</label> <input class="form-control" type="text" name="name" id="name" placeholder="Nome"></div><div class="form-group"><label for="message">Qual tratamento deseja fazer?</label> <textarea id="message" class="form-control" name="message" placeholder="Digite sua mensagem aqui"></textarea></div><a href="javascript:;" style="background-color: #cfa8a1 !important; color: #fff; width: 100%" type="submit" id="button-send" class="btn btn-lg btn-primary">Enviar</a></form></div></div>
+        </div>
+      </div>
+    </section>
+    <script>
+      let text = ''
+      document.getElementById('name').addEventListener('input', (e) => {
+        if (e.data) {
+          text += e.data
+        }
+        document.getElementById('button-send').href = decodeURI(`https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas ${text}`)
+      })
+      document.getElementById('message').addEventListener('input', (e) => {
+        if (e.data) {
+          text += e.data
+        }
+        document.getElementById('button-send').href = decodeURI(`https://wa.me/5532988540093?text=Ola%20gostaria%20de%20falar%20com%20dra%20valeria%20vargas ${text}`)
+      })
+    </script>
     <div class="row">
       <div class="col-12 col-lg-auto order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>last pl-xl-4">
         <div class="footer__contacts">
@@ -157,9 +190,15 @@ const themeCustom = _.settings.theme.custom || ''
       <% } %>
 
       <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
-        <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
-        </h2>
+        <% if (path == '/') { %>
+          <h1 class="footer__title footer__store">
+            <%= footer.description.title || _.settings.name %>
+          </h1>
+        <% }  else { %>
+          <h2 class="footer__title footer__store">
+            <%= footer.description.title || _.settings.name %>
+          </h2>
+        <% } %>
         <p><%- footer.description.text || _.settings.description %></p>
 
         <div class="mt-4 mb-3">
@@ -206,3 +245,14 @@ const themeCustom = _.settings.theme.custom || ''
     </div>
   </div>  
 </footer>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
